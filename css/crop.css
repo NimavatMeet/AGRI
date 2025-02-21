@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1E3A56, #29577A);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFA500;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Button Styles */
+.login-btn {
+    background: #FFA500;
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #E69500;
+}
+
+/* Login Links */
+.login-links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-links a {
+    color: #FFA500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
